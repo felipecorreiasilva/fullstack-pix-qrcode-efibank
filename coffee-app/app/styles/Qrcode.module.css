@@ -1,0 +1,15 @@
+.qrcode {
+    margin: auto;
+    width: 45%;
+    border-width: 2px;
+    border-color:  #ccc;
+    border-radius: 2px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.imgQrcode {
+    height: 350px;
+    margin: auto;
+    
+}

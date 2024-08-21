@@ -1,0 +1,91 @@
+.navbar {
+
+    background-color: #000;
+
+}
+
+.navbar ul{
+    
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+
+.navbar ul li a {
+    
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 35px;
+    justify-items: right;
+    
+}
+
+.hover:hover {
+    
+    color: white;
+    background-color: #131313;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.subMenuA{
+    display: none;
+}
+
+.navbar ul li:hover .subMenuA{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-left: -20px;
+}
+
+.navbar ul li:hover .subMenuA ul {
+    display: block;
+    margin: auto;
+}
+
+.navbar ul .logo {
+    /* justify-content: start; */
+    /* padding: 20px; */
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+       
+}
+
+/* .username {
+    
+    color: white;
+    margin-right: 50%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    
+} */
+
+.iconProfile {
+    
+    color: white;
+}
+
+.iconLogout {
+    
+    color: white;
+}
+
+.iconCart {
+    color: white;
+    
+}
+
+
+.cartModal {
+    position: relative;
+    z-index: 1;
+}
+

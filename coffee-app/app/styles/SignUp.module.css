@@ -1,0 +1,91 @@
+/* @import url(../constants/colors.tsx); */
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 18px;
+    display: flex;
+    margin-bottom: 5px;
+    
+}
+
+.input {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    width: 400px;
+    height: 20;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.button {
+    margin: 25px;
+    color: white;
+    padding: 10px;
+    border-color: #0f0f0f;
+    border-width: 2px;
+    border-radius: 12px;
+    background-color: #0f0f0f;
+
+}
+
+.button:hover {
+    background-color: #1b1b1b;
+}
+
+.al {
+    font-weight: bold;
+}
+
+.area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-width: 1px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.area button {
+    margin: 1px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: black;
+    padding: 10px; 
+    border-radius: 12px;
+
+}
+
+.area input {
+    width: 100%;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    color: black;
+    height: 0px;
+}
